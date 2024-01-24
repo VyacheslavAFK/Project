@@ -1,0 +1,16 @@
+from tkinter import *
+window = Tk()
+window.geometry("600x400")
+window.resizable(height=False, width=False)
+window.title("Илья лох")
+def ilya():
+    I = Label(window, font="Arial, 34", text="ХУЙ СОСИИ\n АХАХАХАХАХА")
+    label.pack_forget()
+    I.pack()
+label = Label(window, font="Arial, 34", text="ИЛЮХА ЛОХ?")
+label.pack()
+b1 = Button(window, font="Arial, 30", text="да", bg="Light Gray", command=ilya)
+b1.place(y=300, x=500)
+b2 = Button(window, font="Arial, 30", text="да", bg="Light Gray", command=ilya)
+b2.place(y=300, x=20)
+window.mainloop()
